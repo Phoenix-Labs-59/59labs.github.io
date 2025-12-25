@@ -3,39 +3,28 @@
 <head>
 	<title>59Labs — Building Intelligent Systems</title>
 	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 
 	<style>
-		/* ===== Logo Glass Container ===== */
-		.logo-glass {
-			display: inline-flex;
+		.brand-row {
+			display: flex;
 			align-items: center;
 			gap: 0.8rem;
-			padding: 0.6rem 1rem;
-			border-radius: 14px;
-			background: rgba(0, 0, 0, 0.35);
-			backdrop-filter: blur(14px);
-			-webkit-backdrop-filter: blur(14px);
-			box-shadow:
-				0 0 0 1px rgba(255,255,255,0.12),
-				0 8px 30px rgba(0,0,0,0.45);
-			margin-bottom: 1.5rem;
+			margin-bottom: 1.2rem;
 		}
 
-		.logo-glass img {
-			height: 36px;
+		.brand-row img {
+			height: 34px;
 			width: auto;
-			display: block;
 		}
 
-		.logo-glass span {
+		.brand-row span {
 			font-weight: 600;
-			letter-spacing: 0.04em;
+			letter-spacing: 0.05em;
 			color: #fff;
-			opacity: 0.9;
 			font-size: 0.9rem;
 		}
 	</style>
@@ -43,7 +32,6 @@
 
 <body>
 
-<!-- Sidebar -->
 <section id="sidebar">
 	<div class="inner">
 		<nav>
@@ -63,8 +51,7 @@
 	<section id="intro" class="wrapper style1 fullscreen fade-up">
 		<div class="inner">
 
-			<!-- Glass Logo -->
-			<div class="logo-glass">
+			<div class="brand-row">
 				<img src="images/59LABS_MARK.png" alt="59 Labs Logo">
 				<span>59 LABS</span>
 			</div>
@@ -87,12 +74,12 @@
 	<!-- Phoenix Labs -->
 	<section id="phoenix" class="wrapper style2 fade-up">
 		<div class="inner">
-			<img src="images/PHOENIXLOGO.png" alt="Phoenix Labs Logo" style="max-width:160px; margin-bottom:1.5rem;" />
+			<img src="images/PHOENIXLOGO.png" style="max-width:160px;margin-bottom:1.5rem;">
 			<h2>Phoenix Labs</h2>
 			<p>
-				Phoenix Labs is the innovation and research division of 59Labs.
-				Each Phoenix system is built with resilience, intelligence, and long-term usefulness
-				at its core.
+				Phoenix Labs is the innovation and research division of 59Labs,
+				building resilient, secure, and intelligent systems designed
+				for real-world use.
 			</p>
 		</div>
 	</section>
@@ -103,51 +90,28 @@
 			<h2>Projects</h2>
 
 			<div class="features">
-
-				<section>
-					<h3>Phoenix Med</h3>
-					<p>Personal AI-powered health assistant.</p>
-					<a href="phoenix-med.html" class="button small">View</a>
-				</section>
-
-				<section>
-					<h3>Phoenix Mark IV</h3>
-					<p>Secure, DAN-resistant personal assistant.</p>
-					<a href="phoenix-mark4.html" class="button small">View</a>
-				</section>
-
-				<section>
-					<h3>Phoenix Mark II</h3>
-					<p>Jarvis-style intelligent system.</p>
-					<a href="phoenix-mark2.html" class="button small">View</a>
-				</section>
-
-				<section>
-					<h3>Phoenix Finance</h3>
-					<p>Real-time finance intelligence & paper trading.</p>
-					<a href="phoenix-finance.html" class="button small">View</a>
-				</section>
-
-				<section>
-					<h3>Phoenix Mate</h3>
-					<p>Personal AI study companion.</p>
-					<a href="phoenix-mate.html" class="button small">View</a>
-				</section>
-
-				<section>
-					<h3>Phoenix Reporter</h3>
-					<p>Real-time news intelligence engine.</p>
-					<a href="phoenix-reporter.html" class="button small">View</a>
-				</section>
-
+				<section><h3>Phoenix Med</h3><a href="phoenix-med.html" class="button small">View</a></section>
+				<section><h3>Phoenix Mark IV</h3><a href="phoenix-mark4.html" class="button small">View</a></section>
+				<section><h3>Phoenix Mark II</h3><a href="phoenix-mark2.html" class="button small">View</a></section>
+				<section><h3>Phoenix Finance</h3><a href="phoenix-finance.html" class="button small">View</a></section>
+				<section><h3>Phoenix Mate</h3><a href="phoenix-mate.html" class="button small">View</a></section>
+				<section><h3>Phoenix Reporter</h3><a href="phoenix-reporter.html" class="button small">View</a></section>
 			</div>
 		</div>
 	</section>
 
 </div>
 
+<!-- Contact / Footer -->
 <footer id="footer" class="wrapper style1-alt">
 	<div class="inner">
+		<h2>Contact</h2>
+		<p>Reach out for collaborations, research, or product discussions.</p>
+		<ul class="contact">
+			<li class="icon solid fa-envelope">
+				<a href="mailto:contact@59labs.in">contact@59labs.in</a>
+			</li>
+		</ul>
 		<ul class="menu">
 			<li>&copy; 59Labs</li>
 			<li>Built by Phoenix Labs</li>
@@ -160,4 +124,3 @@
 
 </body>
 </html>
-
