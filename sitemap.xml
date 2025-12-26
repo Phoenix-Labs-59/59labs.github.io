@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://59labs.in/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://59labs.in/phoenix-med.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://59labs.in/phoenix-mark4.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://59labs.in/phoenix-mark2.html</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://59labs.in/phoenix-finance.html</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://59labs.in/phoenix-mate.html</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://59labs.in/phoenix-reporter.html</loc>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>
